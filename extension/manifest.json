@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "indirio Helper",
+  "version": "1.0.0",
+  "description": "YouTube, Instagram, Twitter ve TikTok videolarını tek tıkla indirio üzerinden indirir.",
+  "permissions": ["activeTab", "contextMenus", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "helper@indirio.com.tr"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*",
+        "*://*.instagram.com/*",
+        "*://*.twitter.com/*",
+        "*://*.x.com/*",
+        "*://*.tiktok.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Compress Release Workspace
+        run: |
+          tar -czf /tmp/release.tar.gz --exclude='.git' --exclude='.github' --exclude='node_modules' --exclude='.next' --exclude='downloads' .
+          mv /tmp/release.tar.gz ./release.tar.gz
+
+      - name: Copy Tarball to VPS
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          port: 22
+          source: "release.tar.gz"
+          target: "/root"
+
+      - name: Extract and Run Build on VPS
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          port: 22
+          script: |
+            echo "Extracting release bundle..."
+            mkdir -p /var/www/indirio
+            tar -xzf /root/release.tar.gz -C /var/www/indirio
+            rm -f /root/release.tar.gz
+
+            cd /var/www/indirio
+            echo "Installing production dependencies..."
+            npm install
+
+            echo "Building application..."
+            NEXT_PUBLIC_APP_URL=https://indirio.com.tr npm run build
+
+            echo "Restarting PM2 daemon..."
+            PORT=3001 pm2 restart indirio || PORT=3001 pm2 start npm --name "indirio" --cwd /var/www/indirio -- run start
+            pm2 save
+
+            echo "Deployment finished successfully!"
