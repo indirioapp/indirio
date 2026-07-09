@@ -88,12 +88,12 @@ export default function Footer() {
                 </h2>
                 <div className="space-y-4 text-xs text-zinc-550 leading-relaxed font-sans">
                   <p>
-                    <strong>1. Kabul Edilen Koşullar:</strong> indirio.net web sitesini ziyaret
+                    <strong>1. Kabul Edilen Koşullar:</strong> indirio.com.tr web sitesini ziyaret
                     ederek veya buradaki araçları kullanarak, bu kullanım koşullarını tamamen kabul
                     etmiş olursunuz.
                   </p>
                   <p>
-                    <strong>2. Hizmet Tanımı:</strong> indirio.net, sosyal medya platformlarındaki
+                    <strong>2. Hizmet Tanımı:</strong> indirio.com.tr, sosyal medya platformlarındaki
                     halka açık video ve ses dosyalarını kişisel kullanım amacıyla analiz etmenizi ve
                     indirmenizi sağlayan ücretsiz, açık kaynaklı bir araçtır.
                   </p>
@@ -110,7 +110,7 @@ export default function Footer() {
                     denemeleri kesinlikle yasaktır.
                   </p>
                   <p>
-                    <strong>5. Sorumluluk Sınırlandırması:</strong> indirio.net, harici
+                    <strong>5. Sorumluluk Sınırlandırması:</strong> indirio.com.tr, harici
                     platformların yapacağı API veya yapılandırma değişikliklerinden dolayı hizmette
                     yaşanabilecek kesintilerden veya indirilen dosyaların kullanımından kaynaklanan
                     doğrudan ya da dolaylı zararlardan sorumlu tutulamaz.
@@ -124,7 +124,7 @@ export default function Footer() {
                 </h2>
                 <div className="space-y-4 text-xs text-zinc-550 leading-relaxed font-sans">
                   <p>
-                    <strong>1. Kişisel Veri Toplama:</strong> indirio.net, kullanıcılardan hiçbir
+                    <strong>1. Kişisel Veri Toplama:</strong> indirio.com.tr, kullanıcılardan hiçbir
                     kişisel veri toplamaz, bunları işlemez ve herhangi bir veritabanında saklamaz.
                     Sistemimiz tamamen sunucusuz ve veritabanı bağlantısı olmadan (stateless)
                     çalışmaktadır.

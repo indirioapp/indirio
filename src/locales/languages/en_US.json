@@ -21,23 +21,23 @@
   "platforms": {
     "title": "All popular platforms",
     "titleHighlight": "supported",
-    "subtitle": "You can copy any video link from the following social media and video sharing sites and download it instantly with indirio.net."
+    "subtitle": "You can copy any video link from the following social media and video sharing sites and download it instantly with indirio.com.tr."
   },
   "howItWorks": {
     "title": "Download in seconds -",
     "titleHighlight": "How it works?",
-    "subtitle": "indirio.net is designed with a simple and linear flow to keep user experience at the highest level.",
+    "subtitle": "indirio.com.tr is designed with a simple and linear flow to keep user experience at the highest level.",
     "step1Title": "1. Copy the Link",
     "step1Desc": "Copy the browser address or sharing link of the video you want to download from supported platforms.",
     "step2Title": "2. Paste in the Search Box",
-    "step2Desc": "Paste the copied link into the indirio.net input field and click \"Download\" to start the analysis.",
+    "step2Desc": "Paste the copied link into the indirio.com.tr input field and click \"Download\" to start the analysis.",
     "step3Title": "3. Choose Format & Download",
     "step3Desc": "View video title and details. Choose MP4 or MP3 format with quality selection and complete download."
   },
   "features": {
     "title": "Premium features,",
     "titleHighlight": "free experience",
-    "subtitle": "indirio.net is optimized from start to finish to eliminate all friction in the video download process.",
+    "subtitle": "indirio.com.tr is optimized from start to finish to eliminate all friction in the video download process.",
     "f1Title": "Blazing Fast Conversion",
     "f1Desc": "Thanks to our advanced server infrastructure, videos are analyzed and converted in seconds.",
     "f2Title": "MP4 and MP3 Options",
@@ -64,28 +64,28 @@
   "faq": {
     "title": "Frequently asked",
     "titleHighlight": "questions",
-    "subtitle": "You can find answers to your questions about the indirio.net video downloader here.",
-    "q1": "Is downloading videos with indirio.net completely free?",
-    "a1": "Yes, indirio.net is completely free. You can analyze and download as many videos as you want without creating an account, entering credit card information, or registering.",
+    "subtitle": "You can find answers to your questions about the indirio.com.tr video downloader here.",
+    "q1": "Is downloading videos with indirio.com.tr completely free?",
+    "a1": "Yes, indirio.com.tr is completely free. You can analyze and download as many videos as you want without creating an account, entering credit card information, or registering.",
     "q2": "What formats and quality resolutions are supported?",
     "a2": "You can download videos in MP4 format in 360p (Standard), 720p (HD), and 1080p (Full HD) qualities. You can also convert audio files into high-quality (320kbps) MP3 format.",
     "q3": "Are there download limits or restrictions?",
     "a3": "There is no general download limit. However, a reasonable rate limit (request frequency limit) is applied per IP address to prevent server overload and ensure high-speed service for all users.",
     "q4": "Can videos be downloaded from mobile devices (iPhone / Android)?",
-    "a4": "Yes, indirio.net is 100% compatible with mobile devices. You can paste the link using Safari, Chrome, or another mobile browser and save the downloaded file directly to your device's files section.",
+    "a4": "Yes, indirio.com.tr is 100% compatible with mobile devices. You can paste the link using Safari, Chrome, or another mobile browser and save the downloaded file directly to your device's files section.",
     "q5": "Where are files saved after downloading?",
     "a5": "Your downloaded files are saved to your browser's default download location. On computers, this is usually the \"Downloads\" folder, while on mobile devices it is in the local \"Files\" or \"Downloads\" app.",
     "q6": "Is downloading copyrighted videos allowed?",
-    "a6": "indirio.net does not encourage or endorse the unauthorized download of copyrighted, commercial, or protected content. Users are solely responsible for downloading only copyright-free, Creative Commons licensed, or explicitly authorized content."
+    "a6": "indirio.com.tr does not encourage or endorse the unauthorized download of copyrighted, commercial, or protected content. Users are solely responsible for downloading only copyright-free, Creative Commons licensed, or explicitly authorized content."
   },
   "footer": {
-    "desc": "indirio.net is a modern SaaS tool that allows you to download videos from your favorite platforms quickly, securely, and in high quality.",
+    "desc": "indirio.com.tr is a modern SaaS tool that allows you to download videos from your favorite platforms quickly, securely, and in high quality.",
     "navTitle": "Navigation",
     "legalTitle": "Legal",
     "terms": "Terms of Use",
     "privacy": "Privacy Policy",
     "contact": "Contact & Support",
-    "disclaimer": "Disclaimer: indirio.net is designed only for personal archival use of user-owned or public domain copyright-free content. Unauthorized downloading of copyrighted content is strictly prohibited, and responsibility lies solely with the user.",
+    "disclaimer": "Disclaimer: indirio.com.tr is designed only for personal archival use of user-owned or public domain copyright-free content. Unauthorized downloading of copyrighted content is strictly prohibited, and responsibility lies solely with the user.",
     "rights": "All rights reserved."
   },
   "downloader": {

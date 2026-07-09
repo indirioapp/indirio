@@ -21,23 +21,23 @@
   "platforms": {
     "title": "Todas las plataformas populares",
     "titleHighlight": "soportadas",
-    "subtitle": "Puedes copiar cualquier enlace de video de las siguientes redes sociales y sitios de compartición de videos y descargarlo instantáneamente con indirio.net."
+    "subtitle": "Puedes copiar cualquier enlace de video de las siguientes redes sociales y sitios de compartición de videos y descargarlo instantáneamente con indirio.com.tr."
   },
   "howItWorks": {
     "title": "Descarga en segundos -",
     "titleHighlight": "¿Cómo funciona?",
-    "subtitle": "indirio.net está diseñado con un flujo simple y lineal para mantener la experiencia de usuario al más alto nivel.",
+    "subtitle": "indirio.com.tr está diseñado con un flujo simple y lineal para mantener la experiencia de usuario al más alto nivel.",
     "step1Title": "1. Copia el enlace",
     "step1Desc": "Copia la dirección del navegador o el enlace para compartir del video que deseas descargar de las plataformas soportadas.",
     "step2Title": "2. Pégalo en el cuadro de búsqueda",
-    "step2Desc": "Pega el enlace copiado en el campo de entrada de indirio.net y haz clic en \"Descargar\" para iniciar el análisis.",
+    "step2Desc": "Pega el enlace copiado en el campo de entrada de indirio.com.tr y haz clic en \"Descargar\" para iniciar el análisis.",
     "step3Title": "3. Elige formato y descarga",
     "step3Desc": "Visualiza el título del video y los detalles. Elige el formato MP4 o MP3 con selección de calidad y completa la descarga."
   },
   "features": {
     "title": "Características premium,",
     "titleHighlight": "experiencia gratuita",
-    "subtitle": "indirio.net está optimizado de principio a fin para eliminar cualquier fricción en el proceso de descarga de videos.",
+    "subtitle": "indirio.com.tr está optimizado de principio a fin para eliminar cualquier fricción en el proceso de descarga de videos.",
     "f1Title": "Conversión súper rápida",
     "f1Desc": "Gracias a nuestra avanzada infraestructura de servidores, los videos se analizan y convierten en segundos.",
     "f2Title": "Opciones de MP4 y MP3",
@@ -64,28 +64,28 @@
   "faq": {
     "title": "Preguntas",
     "titleHighlight": "frecuentes",
-    "subtitle": "Aquí puedes encontrar respuestas a tus preguntas sobre el descargador de videos indirio.net.",
-    "q1": "¿Descargar videos con indirio.net es completamente gratis?",
-    "a1": "Sí, indirio.net es completamente gratis. Puedes analizar y descargar tantos videos como quieras sin crear una cuenta, ingresar información de tarjeta de crédito o registrarte.",
+    "subtitle": "Aquí puedes encontrar respuestas a tus preguntas sobre el descargador de videos indirio.com.tr.",
+    "q1": "¿Descargar videos con indirio.com.tr es completamente gratis?",
+    "a1": "Sí, indirio.com.tr es completamente gratis. Puedes analizar y descargar tantos videos como quieras sin crear una cuenta, ingresar información de tarjeta de crédito o registrarte.",
     "q2": "¿Qué formatos y resoluciones de calidad están soportados?",
     "a2": "Puedes descargar videos en formato MP4 en calidades 360p (Estándar), 720p (HD) y 1080p (Full HD). También puedes convertir archivos de audio a formato MP3 de alta calidad (320kbps).",
     "q3": "¿Existen límites de descarga o restricciones?",
     "a3": "No hay un límite general de descarga. Sin embargo, se aplica un límite de tasa razonable (límite de frecuencia de solicitudes) por dirección IP para evitar la sobrecarga del servidor y garantizar un servicio de alta velocidad para todos.",
     "q4": "¿Se pueden descargar videos desde dispositivos móviles (iPhone / Android)?",
-    "a4": "Sí, indirio.net es 100% compatible con dispositivos móviles. Puedes pegar el enlace usando Safari, Chrome u otro navegador móvil y guardar el archivo descargado directamente en la sección de archivos de tu dispositivo.",
+    "a4": "Sí, indirio.com.tr es 100% compatible con dispositivos móviles. Puedes pegar el enlace usando Safari, Chrome u otro navegador móvil y guardar el archivo descargado directamente en la sección de archivos de tu dispositivo.",
     "q5": "¿Dónde se guardan los archivos después de la descarga?",
     "a5": "Tus archivos descargados se guardan en la ubicación de descarga predeterminada de tu navegador. En computadoras, esta suele ser la carpeta \"Descargas\", mientras que en dispositivos móviles está en la aplicación local \"Archivos\" o \"Descargas\".",
     "q6": "¿Está permitido descargar videos con derechos de autor?",
-    "a6": "indirio.net no fomenta ni respalda la descarga no autorizada de contenido con derechos de autor, comercial o protegido. Los usuarios son los únicos responsables de descargar solo contenido libre de derechos de autor, bajo licencia Creative Commons o explícitamente autorizado."
+    "a6": "indirio.com.tr no fomenta ni respalda la descarga no autorizada de contenido con derechos de autor, comercial o protegido. Los usuarios son los únicos responsables de descargar solo contenido libre de derechos de autor, bajo licencia Creative Commons o explícitamente autorizado."
   },
   "footer": {
-    "desc": "indirio.net es una herramienta SaaS moderna que te permite descargar videos de tus plataformas favoritas de manera rápida, segura y en alta calidad.",
+    "desc": "indirio.com.tr es una herramienta SaaS moderna que te permite descargar videos de tus plataformas favoritas de manera rápida, segura y en alta calidad.",
     "navTitle": "Navegación",
     "legalTitle": "Legal",
     "terms": "Términos de uso",
     "privacy": "Política de privacidad",
     "contact": "Contacto y soporte",
-    "disclaimer": "Descargo de responsabilidad: indirio.net está diseñado solo para uso de archivo personal de contenido propiedad del usuario o de dominio público libre de derechos de autor. La descarga no autorizada de contenido con derechos de autor está estrictamente prohibida, y la responsabilidad recae exclusivamente en el usuario.",
+    "disclaimer": "Descargo de responsabilidad: indirio.com.tr está diseñado solo para uso de archivo personal de contenido propiedad del usuario o de dominio público libre de derechos de autor. La descarga no autorizada de contenido con derechos de autor está estrictamente prohibida, y la responsabilidad recae exclusivamente en el usuario.",
     "rights": "Todos los derechos reservados."
   },
   "downloader": {
