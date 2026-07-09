@@ -49,6 +49,12 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.ico',
   },
+  alternates: {
+    canonical: 'https://indirio.com.tr',
+  },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || 'google-verification-placeholder',
+  },
 };
 
 import { LanguageProvider } from '@/context/LanguageContext';
@@ -65,6 +71,22 @@ export default function RootLayout({
       style={{ colorScheme: 'dark' }}
     >
       <body className="min-h-full flex flex-col bg-[#020205] text-foreground">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "indirio.com.tr",
+              "url": "https://indirio.com.tr",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://indirio.com.tr/?url={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
         <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
